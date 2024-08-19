@@ -1,0 +1,158 @@
+.card{
+    border: none !important; 
+    text-align: center;
+    img{
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+.button{
+   display: flex;
+   justify-content: center;
+}
+
+
+.usus{
+    background-color: #067A46;
+    color: #FFFFFF;
+    width: 457px;
+    height: 48px;
+}
+
+.imgs{
+   width: 282px !important;
+}
+
+
+.imm{
+    width: 262px !important;
+}
+
+
+.kkk{
+    text-align: center;
+}
+
+.mmm{
+    width: 100% !important;
+}
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+   
+    
+  }
+
+
+
+  
+  .f-main {
+    height: max-content;
+    padding: 60px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+  }
+
+
+  .m-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .ggg{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.ooo{
+    height: 25px;
+    width: 25px;
+    
+}
+
+.f-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width: 1012px) {
+    .f-main{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media (max-width: 809px) {
+    .f-main{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width: 596px) {
+    .f-main{
+        grid-template-columns: repeat(2,1fr);
+    }.usus{
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 414px) {
+    .f-main{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.around{
+    color: #242424;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.slout{
+    color: #067A46;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.lok{
+    color: #067A46;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.loks{
+    color: #242424;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+@media (max-width: 1165px) {
+    .m-left{
+        flex-direction: column;
+      
+    }
+
+   
+}
+
+
+.h-left img {
+    width: 100%;
+}
+
+.h-right{
+    text-align: center;
+}
